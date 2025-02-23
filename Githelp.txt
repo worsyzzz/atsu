@@ -1,0 +1,13 @@
+команды нам один раз в проекте
+git init - команды для  создания скрытого файла .git
+git remote add origin https://github.com/worsyzzz/atsu.git - для привязки репо
+
+git config --global user.name "atsu"
+git config --global user.email "alimbekovtemirlan310@gmail.com"
+Команды которые часта пишутся в проекте
+git add .    |  Команда копирует и сохраняет в буфер ( Невидемый )
+git commit -m "commit message"    | Команда сохраняет изменения в файле .git
+git push origin master | Команда отправляет изменения в репозиторий и сохраняет его там
+git branch   | Команда для просмотра списка веток
+git status   | Команда для просмотра состояния проекта или просмотра изменений
+git pull origin master | Команда для получения изменений из репозитория
